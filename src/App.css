@@ -1,0 +1,253 @@
+.toolbar {
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.sidebar {
+  position: absolute;
+  background-color: white;
+  color: lightblue;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 250px;
+  transform: translateX(-100%);
+  transition: all 0.4s;
+  margin-top: 60px;
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 1rem 2rem;
+  border-bottom: solid lightblue 1px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 300;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: (0, 0, 0, 0.5);
+  display: none;
+}
+
+.sidebaropen {
+  transform: translateX(0%);
+}
+
+.backdropopen {
+  display: block;
+}
+.logo1 {
+  margin-left: 15px;
+}
+
+.burger {
+  margin-left: 60px;
+}
+.toggle {
+  background-color: white !important;
+  border: none !important;
+}
+
+.input1 {
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-left: 10px;
+  padding-left: 20px;
+  background: url(./assets/search-line.png) no-repeat scroll 2px 2px;
+  padding-left: 30px;
+}
+
+.righticons {
+  position: absolute;
+  right: 140px;
+}
+
+.righticons img {
+  margin: 14px;
+}
+
+.righttext {
+  position: absolute;
+  right: 0;
+}
+
+.righttext p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.dropdowntitle {
+  width: 100%;
+  background-color: white !important;
+  color: rgb(41, 137, 206) !important;
+  border: none !important;
+}
+
+.dropdownitem {
+  width: 100% !important;
+  color: rgb(41, 137, 206) !important;
+  border: none !important;
+}
+
+.dropdownmenu {
+  border: none !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.pagination {
+  padding: 10px 10px 20px 0;
+  margin: 5px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination span {
+  padding: 15px 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.paginationselected {
+  background-color: gray;
+}
+
+.plcontainer table {
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.forms {
+  width: 1000px;
+  margin: 0 auto;
+}
+.bloc-tabs {
+  display: flex;
+  margin: 30px;
+}
+.tabs {
+  padding: 5px;
+
+  text-align: center;
+  width: 10%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+.addbutton {
+  float: right;
+  margin: 30px;
+}
+
+.nameform p {
+  margin: 5px 0 14px 0;
+  padding: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.organization p {
+  margin: 5px 0 14px 0;
+  padding: 0;
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.organization {
+  margin-top: 50px;
+  padding: 10px 0;
+}
+
+.apcontainer {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.variant2 {
+  margin-top: 18px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.variant1 {
+  margin-top: 50px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alertdiv {
+  margin-top: 20px;
+  padding: 3px;
+  text-align: center;
+}
