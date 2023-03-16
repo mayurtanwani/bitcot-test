@@ -1,3 +1,5 @@
+Sir I have done the best I could with the time I was given. I didn't used redux or context api, instead I lifed the state to share states between coponent. I used localstorage to login and sign up the user. I used cloudinary to upload the images to cloud. The code is functional and it does all the functionality that was given, but it's css and UI is not perfect. For storing the data, I used an array, so data is not persistant. It goes away when we refresh, but it still adds product and edits and is function until we refresh it. I made the sidebar toggle, so you would need to click on hamburger icon to see the side bar and you'll need to click on dropdown button see add product and product list routes. Thank you
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
